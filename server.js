@@ -8,6 +8,6 @@ app.get('/', function(req, res) {
   res.render('index.html');
 });
 
-app.listen(8000, function() {
-  console.log('server up and running on port 8000');
+app.listen(8080, function() {
+  console.log('server up and running on port 8080');
 })
